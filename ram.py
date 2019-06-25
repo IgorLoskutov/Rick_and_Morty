@@ -190,13 +190,8 @@ class EpisodeDownloader:
             shutil.rmtree('./'+folder, ignore_errors=False, onerror=None)
 
 
-
-
-
 class SeasonDownloader:
     pass
-
-'''
 
 
 if __name__ == "__main__":
