@@ -33,9 +33,6 @@ class EpisodeDownloader:
         self.streams_links = self._get_episodes()
         self.streams_list = None  # delivered by   __get_chunks()
         self._get_chunks()
-        # self.folder = start_url[-8:].replace(':', '').replace('-', '')
-        # if not os.path.exists(self.folder):
-        #     os.mkdir(self.folder)
 
     def _get_episodes(self):
         playlists_links = dict()
